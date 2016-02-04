@@ -21,7 +21,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Entity
 @Table(name="linedefence")
 public class Game {
- 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
